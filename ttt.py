@@ -1,0 +1,15 @@
+from tictactoe import TicTacToe
+
+game = TicTacToe()
+game.make_move(0)
+game.make_move(0)
+print(game.board)
+print(game.get_winner())
+game.make_move(3)
+print(game.get_winner())
+game.make_move(1)
+print(game.get_winner())
+game.make_move(4)
+print(game.get_winner())
+game.make_move(2)
+print(game.get_winner())
